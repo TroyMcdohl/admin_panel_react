@@ -1,0 +1,88 @@
+.rightCreateUpdate_container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+}
+
+.create_game {
+  margin: 0;
+  padding: 0;
+}
+
+.rightCreateUpdate_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  height: 100%;
+}
+
+.rightCreateUpdate_input_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.rightCreateUpdate_input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightCreateUpdate_label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.rightCreateUpdate_input {
+  border: none;
+  outline: none;
+  height: 25px;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.rightCreateUpdate_btn {
+  background-color: rgb(7, 196, 7);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+@media (max-width: 760px) {
+  .rightCreateUpdate_input_box {
+    margin: 18px;
+  }
+
+  .rightCreateUpdate_container {
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: absolute;
+    top: 60px;
+    z-index: 999;
+    background-color: black;
+  }
+
+  .rightCreateUpdate_label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .rightCreateUpdate_input {
+    width: 90%;
+  }
+
+  .rightCreateUpdate_btn {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.panel_update_btn {
+  border: none;
+  background-color: rgb(147, 243, 22);
+  color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 760px) {
+  .panel_update_btn {
+    font-size: 8px;
+    height: 20px;
+  }
+}
